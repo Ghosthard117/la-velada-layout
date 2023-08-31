@@ -10,8 +10,17 @@
     <meta name="generator" content={Astro.generator} />
     <title>Astro</title>
   </head>
-  <body>
-    <header></header>
+  <body class="relative bg-black">
+    <header class="relative">
+      <div class="absolute left-1/2 -translate-x-1/2 flex flex-col gap-1 justify-center items-center">
+        <img 
+          src="/img/logo.webp" 
+          alt="Logo de la Velada del año"
+          class="w-32 lg:w-64 h-auto"
+          />
+          <h1 class="text-6xl uppercase text-center text-white">La velada del año III</h1>
+      </div>
+    </header>
 
     <main>
       <section
@@ -27,15 +36,18 @@
           <img 
 						class="left-0 h-full z-50 animate-fade-right" 
 						src="/boxers/coscu.webp" 
-						alt="Coscu" />
+						alt="Coscu" 
+            />
           <img 
 						class="left-[3%] h-[80%] z-40 animate-fade-right animate-delay-300" 
 						src="/boxers/mayichi.webp" 
-						alt="Mayichi" />
+						alt="Mayichi" 
+            />
           <img 
 						class="left-[8%] h-[75%] z-30 animate-fade-right animate-delay-500" 
 						src="/boxers/viruzz.webp" 
-						alt="Viruzz" />
+						alt="Viruzz" 
+            />
           <img
             class="left-[14%] h-[70%] z-20 animate-fade-right animate-delay-700"
             src="/boxers/fernanfloo.webp"
@@ -49,14 +61,16 @@
           <img 
 						class="left-[22%] h-[63%] z-0 animate-fade-right animate-delay-[1300ms]" 
 						src="/boxers/papigavi.webp" 
-						alt="Papigavi" />
+						alt="Papigavi" 
+            />
         </div>
 
         <div>
           <img 
 						class="right-0 h-full z-50 animate-fade-left" 
 						src="/boxers/german.webp" 
-						alt="German" />
+						alt="German" 
+            />
           <img
             class="right-[4%] h-[80%] z-40 animate-fade-left animate-delay-300"
             src="/boxers/amouranth.webp"
@@ -65,19 +79,23 @@
           <img 
 						class="right-[9%] h-[75%] z-30 animate-fade-left animate-delay-500" 
 						src="/boxers/shelao.webp" 
-						alt="Shelao" />
+						alt="Shelao" 
+            />
           <img 
 						class="right-[17%] h-[70%] z-20 animate-fade-left animate-delay-700" 
 						src="/boxers/luzu.webp" 
-						alt="Luzu" />
+						alt="Luzu" 
+            />
           <img 
 						class="right-[23%] h-[68%] z-10 animate-fade-left animate-delay-1000" 
 						src="/boxers/rivers.webp" 
-						alt="Rivers" />
+						alt="Rivers" 
+            />
           <img 
 						class="right-[26%] h-[64%] z-0 animate-fade-left animate-delay-[1300ms]" 
 						src="/boxers/ampeter.webp" 
-						alt="Ampeter" />
+						alt="Ampeter" 
+            />
         </div>
       </section>
     </main>
