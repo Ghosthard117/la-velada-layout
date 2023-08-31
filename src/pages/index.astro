@@ -191,6 +191,9 @@
   const $boxers = document.querySelector("#boxers");
   const $boxersImg = $boxers.querySelectorAll("img");
 
+  const $info = document.querySelector("#info") as HTMLElement;
+  const $combat = document.querySelector("#combat") as HTMLElement;
+
   $boxersImg.forEach(($img) => {
     // active hover effect
     $img.addEventListener("mouseenter", () => {
@@ -202,6 +205,20 @@
         $boxersImg[position],
         $boxersImg[position + $boxersImg.length / 2],
       ];
+
+      // hide the information
+      $info.style.opacity = "0";
+      $info.style.transition = "all .3s ease-in-out";
+
+      // show combat section
+      $combat.style.opacity = "1";
+      $combat.style.visibility = "visible";
+      $combat.style.transition = "all .3s ease-in-out";
+
+      // get name of boxers and show
+      const [firstBoxerName, secondBoxerName] = $combat.querySelectorAll("h3");
+      firstBoxerName.innerText = leftBoxer.alt;
+      secondBoxerName.innerText = rightBoxer.alt;
 
       // hide the anothers boxers not selected
       $boxersImg.forEach(($img) => {
@@ -225,6 +242,11 @@
         $img.style.transition = "all .3s ease-in-out";
         $img.style.scale = "1";
       });
+      $info.style.opacity = "1";
+      $info.style.transition = "all .3s ease-in-out";
+
+      $combat.style.opacity = "0";
+      $combat.style.transition = "all .3s ease-in-out";
     });
   });
 </script>
