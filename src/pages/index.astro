@@ -168,3 +168,45 @@
     font-weight: bold;
   }
 </style>
+
+<script>
+  const $boxers = document.querySelector('#boxers')
+  const $boxersImg = $boxers.querySelectorAll('img')
+
+  $boxersImg.forEach($img => {
+    // active hover effect
+    $img.addEventListener('mouseenter', () => {
+      const sectionImages = $img.parentNode.children
+      const position = Array.from(sectionImages).indexOf($img)
+
+      // get image fot the both sides
+      const [leftBoxer, rightBoxer] = [
+        $boxersImg[position],
+        $boxersImg[position + $boxersImg.length / 2]
+      ]
+
+      // hide the anothers boxers not selected
+      $boxersImg.forEach($img => {
+        $img.style.filter = 'blur(2px) grayscale(.7)'
+        $img.style.transition = 'all .3s ease-in-out'
+      })
+
+      leftBoxer.style.scale = '1.2'
+      leftBoxer.style.filter = 'contrast(1.1)'
+      leftBoxer.style.transition = 'all .3s ease-in-out'
+
+      rightBoxer.style.scale = '1.2'
+      rightBoxer.style.filter = 'contrast(1.1)'
+      rightBoxer.style.transition = 'all .3s ease-in-out'
+    })
+
+    // desactive hover effect
+    $img.addEventListener("mouseout", () => {
+      $boxersImg.forEach($img => {
+        $img.style.filter = 'none'
+        $img.style.transition = 'all .3s ease-in-out'
+        $img.style.scale = '1'
+      })
+    })
+  })
+</script>
