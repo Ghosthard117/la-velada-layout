@@ -2,13 +2,17 @@
 
 ---
 
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
+
     <title>La velada del año</title>
+    <meta name="description" content="layout of webpage of La velada del año">
+    <meta name="generator" content={Astro.generator} />
+
+    <link rel="preload" href="/fonts/boxing.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body class="relative">
     <header class="relative">
@@ -215,6 +219,8 @@
         </div>
       </div>
     </div>
+
+
   </body>
 </html>
 
@@ -225,14 +231,8 @@
 
   @font-face {
     font-family: "Boxing";
-    src: url("/fonts/boxing.otf");
     font-weight: bold;
-  }
-
-  @font-face {
-    font-family: "Boxing Striped";
-    src: url("/fonts/boxing-striped.woff2");
-    font-weight: bold;
+    src: url("/fonts/boxing.woff2");
   }
 </style>
 
