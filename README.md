@@ -1,47 +1,37 @@
-# Astro Starter Kit: Minimal
+# La velada del año
+This projects is an improvement of the original layout page of this event in its third edition, based on midudev's projects, who provides the design of the code.
 
-```
-npm create astro@latest -- --template minimal
-```
+[![Original website](https://img.shields.io/static/v1?label=&message=Original%20Site&color=4d94b3&style=for-the-badge)](https://646526e3906c57079154c976--lucky-profiterole-9dd47a.netlify.app/)
+[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=6cccb4&style=for-the-badge)](https://64f36a425a9e1918b5bef601--sensational-llama-4097e3.netlify.app/)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Tech Stack
+![Astro](https://img.shields.io/static/v1?label=&message=Astro&color=orange&logo=Astro5&logoColor=white&style=for-the-badge)
+![Tailwind](https://img.shields.io/static/v1?label=&message=Tailwind&color=blue&logo=tailwind&logoColor=white&style=for-the-badge)
+![Javascript](https://img.shields.io/static/v1?label=&message=Javascript&color=yellow&logo=javascript&logoColor=white&style=for-the-badge)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Screenshots
 
-## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+> View the repository here 👇👇
+> 
+> [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/Ghosthard117T/la-velada-layout)
+>
+> Clone this project 😎
+> ```bash
+>  git clone https://github.com/Ghosthard117T/weather-app.git
+> ```
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+> Notes:
+>
+> The original web page is no longer available.
+>
+> It is use for learning and practice purpose, it is not about appropriating the creator's project.
+>
+> The code was made based on the repetition of the live on midudev's youtube channel.
+>
+> [![Video](https://img.shields.io/static/v1?label=&message=Video&color=red&style=for-the-badge)](https://www.youtube.com/watch?v=8TOwIZ2pn30&list=PL1lEwfimoIjZh-vMaG5qL6D67y2ui8dQB&index=14&t=5732s)
+>
+> This was created with help of the video of midudev, and this is his repository 😎👇
+>
+> [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/midudev/la-velada-landing.git)
