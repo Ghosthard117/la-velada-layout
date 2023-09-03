@@ -10,6 +10,7 @@ This projects is an improvement of the original layout page of this event in its
 ![Javascript](https://img.shields.io/static/v1?label=&message=Javascript&color=yellow&logo=javascript&logoColor=white&style=for-the-badge)
 
 ## Screenshots
+![Captura de pantalla 2023-09-02 204301](https://github.com/Ghosthard117T/la-velada-layout/assets/132961867/3c41d2e1-5e1e-4e62-b2a9-d2279e3d81cf)
 
 
 > View the repository here 👇👇
