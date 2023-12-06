@@ -19,7 +19,7 @@ This projects is an improvement of the original layout page of this event in its
 >
 > Clone this project 😎
 > ```bash
->  git clone https://github.com/Ghosthard117T/weather-app.git
+>  git clone https://github.com/Ghosthard117T/la-velada-layout.git
 > ```
 
 
