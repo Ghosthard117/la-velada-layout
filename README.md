@@ -1,5 +1,5 @@
 # La velada del año
-This projects is an improvement of the original layout page of this event in its third edition, based on midudev's projects, who provides the design of the code.
+The La Velada Layout project represents an enhanced version of the original layout page for the La Velada event's third edition. It builds upon the foundation laid out by Midudev's projects, which provided the design and code structure. Using Astro, Tailwind CSS, and JavaScript, this project aims to improve upon the visual and functional aspects of the event page. By leveraging modern web development technologies, it seeks to elevate the user experience and showcase the event in a more engaging manner.
 
 [![Original website](https://img.shields.io/static/v1?label=&message=Original%20Site&color=4d94b3&style=for-the-badge)](https://646526e3906c57079154c976--lucky-profiterole-9dd47a.netlify.app/)
 [![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=6cccb4&style=for-the-badge)](https://64f36a425a9e1918b5bef601--sensational-llama-4097e3.netlify.app/)
